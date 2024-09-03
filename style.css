@@ -1,0 +1,133 @@
+.quadrado{
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    border: solid 5px black;
+    margin: 1px;
+}
+.numAtomico{
+    display: block;
+    width: 50px;
+    height: 10px;
+    float: right;
+    text-align: right;
+}
+.massaAtomico{
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.simbolo{
+    width: 100px;
+    height: 60px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
+.corCinza{
+    background: rgb(183,183,183);
+    background: radial-gradient(circle, rgba(183,183,183,1) 0%, rgba(90,90,90,1) 100%);
+}
+.corRoxa{
+    background: rgb(200,161,204);
+    background: radial-gradient(circle, rgba(200,161,204,1) 0%, rgba(110,24,105,1) 100%); rgb(123, 59, 123);
+}
+
+h1{
+ font-size: 15px;
+ text-align: center;
+}
+
+.coluna1{
+ width: 112px;
+ height: 772px;
+ display: block;
+ background-color: transparent;
+ float: left;
+} 
+.quadradoTransparente{
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    border: solid 5px rgba(0, 0, 0, 0);
+    margin: 1px;
+    background-color: transparent;
+}
+.corLilas{
+ background: rgb(238,174,202);
+ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.coluna2{
+    width: 112px;
+    height: 660px;
+    display: block;
+    background-color: transparent;
+    float: left;
+    position: relative;
+    top: 112px;
+}
+.coluna3{
+    width: 1102px;
+    height: 440px;
+    display: block;
+    background-color: transparent;
+    float: left;
+    position: relative;
+    top: 332px;
+}
+.corRosa{
+    background: rgb(255,201,230);
+background: radial-gradient(circle, rgba(255,201,230,1) 0%, rgba(249,65,171,1) 100%);
+}
+.corAmarelo{
+    background: rgb(241,233,145);
+    background: radial-gradient(circle, rgba(241,233,145,1) 0%, rgb(255, 238, 0) 100%);
+}
+.corLaranja{
+    background: rgb(241,212,145);
+    background: radial-gradient(circle, rgba(241,212,145,1) 0%, rgb(255, 111, 0) 100%);
+}
+.corVermelho{
+    background: rgb(255,138,138);
+    background: radial-gradient(circle, rgba(255,138,138,1) 0%, rgb(255, 8, 8) 100%);
+}
+.corAzul{
+    background: rgb(128,140,231);
+    background: radial-gradient(circle, rgba(128,140,231,1) 0%, rgba(0,31,255,1) 100%);
+}
+body{
+  background-image: url(./img/fundo.png);
+  background-size: 3000px 1200px;
+}
+.coluna4{
+    width: 1650px;
+    height: 240px;
+    display: block;
+    background-color: transparent;
+    float:left
+    
+}
+.corVerdeEscuro{
+    background: rgb(156,233,154);
+background: radial-gradient(circle, rgba(156,233,154,1) 0%, rgba(10,105,1,1) 100%);
+}
+.corVerdeClaro{
+    background: rgb(149,255,145);
+background: radial-gradient(circle, rgba(149,255,145,1) 0%, rgba(22,255,0,1) 100%);
+}
+h2{
+    font-size: 50px;
+    color: white;
+}
+.colunaTransparente{
+    width: 228px;
+    height: 300px;
+    display: block;
+    color: transparent;
+    float: left;
+    clear: both;
+}
